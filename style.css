@@ -1,5 +1,50 @@
+/* Center the body */
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+}
+
+/* Center the header */
+header h1 {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property figure img {
+  display: block;
+  margin: 0 auto;
+}
+/* Jazz up nav links */
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #c9bbbb;
+}
+/* Style the image caption */
+#featured-property figcaption {
+  font-size: 12px; /* Adjust font size as needed */
+  text-align: center;
+}
+
+/* change width of text */
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin: 20px auto; 
+}
+
+/* Make #details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+/* Style the bottom divs */
+#details div {
+  background-color: red; 
+  text-align: center;
+  padding: 20px;
 }
